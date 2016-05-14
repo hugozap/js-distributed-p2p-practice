@@ -1,0 +1,20 @@
+{
+  "name": "node-distributed",
+  "version": "1.0.0",
+  "description": "Distributed and descentralized practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@hugozap",
+  "license": "MIT",
+  "dependencies": {
+    "hyperlog": "^4.10.0",
+    "hyperx": "^2.0.3",
+    "pump": "^1.0.1",
+    "through2": "^2.0.1",
+    "virtual-dom": "^2.1.1",
+    "webrtc-swarm": "^2.4.0",
+    "yo-yo": "^1.2.0"
+  }
+}
