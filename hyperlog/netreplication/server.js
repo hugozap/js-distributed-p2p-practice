@@ -8,14 +8,12 @@ var db = level('serverdatabase'+ new Date().getTime())
 var net = require('net')
 var client = new net.Socket();
 var log = hyperlog(db)
-//Create the tcp server
 
+//Create the tcp server
 net.createServer(function(socket){
 
 	var rep = log.replicate({live:true})
 	rep.pipe(socket).pipe(rep);
-
-
 	
 }).listen(3999)
 

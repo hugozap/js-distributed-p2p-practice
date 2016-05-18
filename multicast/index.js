@@ -1,6 +1,6 @@
 /*
  Creates a 1 on 1 stream, basic airpaste functionality.
- It uses multicast to announce the service (ip, port) to other parties.
+ It uses multicast to anounce the service (ip, port) to other parties.
  Interesting: You can run one client and type data
  when the next client is executed, all the existing data will be
  sent.
