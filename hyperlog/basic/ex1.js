@@ -15,9 +15,6 @@ var log2 = hyperlog(db2, {
 	valueEncoding: 'json'
 })
 
-
-
-
 //replicate log1 and log2
 
 var s1 = log1.replicate({live:true})
