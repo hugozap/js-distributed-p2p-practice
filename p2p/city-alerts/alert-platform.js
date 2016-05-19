@@ -26,7 +26,8 @@ function Platform(nym, db) {
 	this.ondisconnect = {}
 	this.nym = nym
 	//Signal servers
-	this.hubs = ['https://signalhub.mafintosh.com/']
+	//this.hubs = ['https://signalhub.mafintosh.com/']
+	this.hubs = ['http://localhost:9000']
 }
 
 

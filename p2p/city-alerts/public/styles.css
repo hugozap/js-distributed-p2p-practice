@@ -1,0 +1,49 @@
+body{
+	background-color: #F8F8F8;
+}
+
+.title {
+	width:100%;
+	background-color: #fff;
+	color: #A5D4F9;
+	font-size: 3em;
+
+}
+
+.regions {
+	padding:1em;
+	background-color: #A5D4F9;
+
+}
+
+.regions ul{
+	display: flex;
+	flex-direction:row;
+}
+
+.regions .region-item{
+	padding:0.5em;
+	font-size: 3em;
+	list-style-type: none;
+	margin:0;
+	padding:0.2em;
+	color: #4E4B4B;
+}
+
+.region-item a, .region-item a:visited{
+	color: #4E4B4B;
+	text-decoration: none;
+
+}
+
+.formregion{
+	padding:1em;
+	margin-bottom: 1em;
+}
+.alert-item {
+	font-size: 1.5em;
+	padding: 0.5em;
+	background-color: #FFE900;
+	color: #000;
+	margin:0.3em;
+}
